@@ -32,3 +32,13 @@ repos:
         entry: tools/htaccess-conf-gen.sh
         language: script
         always_run: true
+    -   id: iptables-cli-gen
+        name: Generate iptables cli command list
+        entry: tools/iptables-cli-gen.sh
+        language: script
+        always_run: true
+    -   id: ipset-gen
+        name: Generate iptables ipset list
+        entry: tools/ipset-gen.sh
+        language: script
+        always_run: true
