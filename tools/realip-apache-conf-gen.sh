@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-# Generate apache configuration file based on list of IPs in ips.txt
+# Generate apache realip configuration file based on list of IPs in ips.txt
 
 {
     echo "<IfModule !mod_remoteip.c>
@@ -11,4 +11,4 @@ set -e
     # cloud-shield filters IPs"
     awk '{print "    RemoteIPTrustedProxy " $0}' ips.txt
     echo "</IfModule>"
-} > conf.d/apache-cs-proxyips.conf
+} > conf.d/cs-realip-apache.conf

@@ -12,13 +12,23 @@ repos:
         args: [--unique]
 -   repo: local
     hooks:
-    -   id: custom-gen-nginx-conf
-        name: Generate nginx configuration
-        entry: tools/nginx-conf-gen.sh
+    -   id: realip-nginx-conf-gen
+        name: Generate nginx realip configuration
+        entry: tools/realip-nginx-conf-gen.sh
         language: script
         always_run: true
-    -   id: custom-gen-apache-conf
-        name: Generate apache configuration
-        entry: tools/apache-conf-gen.sh
+    -   id: access-nginx-conf-gen
+        name: Generate nginx access configuration
+        entry: tools/access-nginx-conf-gen.sh
+        language: script
+        always_run: true
+    -   id: realip-apache-conf-gen
+        name: Generate apache realip configuration
+        entry: tools/realip-apache-conf-gen.sh
+        language: script
+        always_run: true
+    -   id: htaccess-conf-gen
+        name: Generate apache htaccess configuration
+        entry: tools/htaccess-conf-gen.sh
         language: script
         always_run: true

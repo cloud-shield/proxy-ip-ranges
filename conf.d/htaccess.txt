@@ -1,0 +1,22 @@
+Order Deny,Allow
+Deny from all
+Allow from 135.125.128.224/28
+Allow from 135.125.201.194
+Allow from 185.143.174.152/29
+Allow from 192.162.246.127
+Allow from 46.8.153.137
+Allow from 46.8.153.161
+Allow from 46.8.153.162
+Allow from 5.75.228.164
+Allow from 51.195.117.215
+Allow from 51.195.45.4
+Allow from 51.195.91.2
+Allow from 51.75.157.80/28
+Allow from 51.89.120.109
+Allow from 51.89.122.42
+Allow from 51.89.122.43
+Allow from 51.89.32.16/30
+Allow from 51.89.32.20/32
+Allow from 51.89.39.46
+Allow from 51.89.47.64
+Allow from 51.89.47.75
