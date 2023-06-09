@@ -10,3 +10,15 @@ repos:
     -   id: file-contents-sorter
         files: ips.txt
         args: [--unique]
+-   repo: local
+    hooks:
+    -   id: custom-gen-nginx-conf
+        name: Generate nginx configuration
+        entry: tools/nginx-conf-gen.sh
+        language: script
+        always_run: true
+    -   id: custom-gen-apache-conf
+        name: Generate apache configuration
+        entry: tools/apache-conf-gen.sh
+        language: script
+        always_run: true
