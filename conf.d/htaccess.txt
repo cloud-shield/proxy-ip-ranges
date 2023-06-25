@@ -2,8 +2,10 @@ Order Deny,Allow
 Deny from all
 Allow from 135.125.128.224/28
 Allow from 135.125.201.194
+Allow from 185.112.83.21
 Allow from 185.143.174.152/29
 Allow from 192.162.246.127
+Allow from 45.142.122.123
 Allow from 46.8.153.137
 Allow from 46.8.153.161
 Allow from 46.8.153.162

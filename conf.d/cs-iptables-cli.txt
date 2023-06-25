@@ -1,8 +1,10 @@
 # Allow cloud-shield to access the web server
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 135.125.128.224/28 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 135.125.201.194 -j ACCEPT
+iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 185.112.83.21 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 185.143.174.152/29 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 192.162.246.127 -j ACCEPT
+iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 45.142.122.123 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 46.8.153.137 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 46.8.153.161 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 46.8.153.162 -j ACCEPT
