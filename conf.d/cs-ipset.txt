@@ -5,7 +5,6 @@ add cloudshield 185.229.66.123
 add cloudshield 192.162.246.127
 add cloudshield 45.142.122.123
 add cloudshield 45.142.122.203
-add cloudshield 46.8.153.137
 add cloudshield 5.75.228.164
 add cloudshield 51.195.117.215
 add cloudshield 51.195.45.4
@@ -18,3 +17,4 @@ add cloudshield 51.89.32.20/32
 add cloudshield 51.89.39.46
 add cloudshield 51.89.47.64
 add cloudshield 51.89.47.75
+add cloudshield 81.163.23.132

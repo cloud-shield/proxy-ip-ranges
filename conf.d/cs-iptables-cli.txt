@@ -5,7 +5,6 @@ iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 185.229.66.123 -j ACCEP
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 192.162.246.127 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 45.142.122.123 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 45.142.122.203 -j ACCEPT
-iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 46.8.153.137 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 5.75.228.164 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.195.117.215 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.195.45.4 -j ACCEPT
@@ -18,5 +17,6 @@ iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.89.32.20/32 -j ACCEP
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.89.39.46 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.89.47.64 -j ACCEPT
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 51.89.47.75 -j ACCEPT
+iptables -I INPUT -p tcp -m multiport --dports 80,443 -s 81.163.23.132 -j ACCEPT
 # Reject all other incoming connections
 iptables -I INPUT -p tcp -m multiport --dports 80,443 -j REJECT

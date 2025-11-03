@@ -6,7 +6,6 @@ Allow from 185.229.66.123
 Allow from 192.162.246.127
 Allow from 45.142.122.123
 Allow from 45.142.122.203
-Allow from 46.8.153.137
 Allow from 5.75.228.164
 Allow from 51.195.117.215
 Allow from 51.195.45.4
@@ -19,3 +18,4 @@ Allow from 51.89.32.20/32
 Allow from 51.89.39.46
 Allow from 51.89.47.64
 Allow from 51.89.47.75
+Allow from 81.163.23.132
